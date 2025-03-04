@@ -10,5 +10,6 @@ int main(void) {
   }
 
   return 0;
-  // This is a comment  to test the git diff command
+  // This is a comment to test the git diff command
+  // This is a comment to test the git diff command
 }
