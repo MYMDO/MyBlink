@@ -1,14 +1,14 @@
-#include <avr/io.h>
-#include <util/delay.h>
+#include <avr/io.h> // Include the standard IO header
+#include <util/delay.h> // Include the delay header
 
 int main(void) {
   DDRB |= (1 << DDB5); // Set pin 13 (PB5) as output
 
   while (1) {
-    PORTB ^= (1 << PORTB5); // Toggle pin 13
+    PORTB ^= (1 << PORTB5); // Toggle pin 13 (PB5)
     _delay_ms(1000); // 1 second delay
   }
 
-  return 0;
+  return 0; // Never reached
   
 }
